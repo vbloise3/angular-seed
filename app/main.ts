@@ -1,6 +1,7 @@
 /**
  * Created by vincebloise on 6/11/16.
  */
+///<reference path="../node_modules/angular2/typings/browser.d.ts"/>
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {Component} from '@angular/core';
 
@@ -12,7 +13,7 @@ class AppComponent {
     name: string;
 
     constructor() {
-        this.name = 'Angular 2';
+        this.name = 'Angular 2, mo-fo, sit!';
     }
 }
 
