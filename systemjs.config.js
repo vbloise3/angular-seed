@@ -4,6 +4,10 @@
 System.config({
     transpiler: 'typescript',
     typescriptOptions: {emitDecoratorMetadata: true},
+    paths: {
+        // paths serve as alias
+        'npm:': 'node_modules/'
+    },
     map: {
         '@angular': 'node_modules/@angular',
         'rxjs'    : 'node_modules/rxjs'
