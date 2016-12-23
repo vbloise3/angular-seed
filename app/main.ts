@@ -1,20 +1,8 @@
 /**
  * Created by vincebloise on 6/11/16.
  */
-///<reference path="../node_modules/angular2/typings/browser.d.ts"/>
-import {bootstrap} from '@angular/platform-browser-dynamic';
-import {Component} from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-@Component({
-    selector: 'app',
-    template: `<h1>Hello {{ name }}!</h1>`
-})
-class AppComponent {
-    name: string;
+import { AppModule }  from './app.module';
 
-    constructor() {
-        this.name = 'Angular 2, mo-fo, sit!';
-    }
-}
-
-bootstrap(AppComponent);
+platformBrowserDynamic().bootstrapModule(AppModule);
