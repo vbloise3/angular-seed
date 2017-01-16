@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/inspectionProfiles/
 .idea/workspace.xml
 node_modules/
-app/main.js
-app/main.js.map
